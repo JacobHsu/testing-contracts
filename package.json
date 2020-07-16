@@ -1,0 +1,27 @@
+{
+  "name": "testing-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node scripts/compile.js",
+    "test": "mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobHsu/testing-contracts.git"
+  },
+  "author": "Jacob Hsu <jacob.hsu.tw@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobHsu/testing-contracts/issues"
+  },
+  "homepage": "https://github.com/JacobHsu/testing-contracts#readme",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "ganache-cli": "^6.9.1",
+    "mocha": "^8.0.1",
+    "solc": "^0.5.17",
+    "web3": "^1.2.9"
+  }
+}
